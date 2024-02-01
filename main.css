@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkblue;
+  font-size: 17px;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#left-box,
+#right-box {
+  width: 300px;
+  min-height: 400px;
+  border: 2px dashed #fff;
+  margin: 20px;
+}
+
+.list {
+  background-color: rgb(231, 116, 16);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  margin: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.list img {
+  width: 30px;
+  margin-right: 10px;
+}
